@@ -15,6 +15,9 @@ Some questions answere [here](./FAQ.md)
 
 To create an environment that new computers can be PXE booted from a PXE boot server and a proxy server (to speed up subsequent builds) are required. These are started as follows:
 
+
+During the startup it will ask which network interface to create a bridge on to this should be the device that you will plug the machines to build into
+
 ```
 make proxycache
 make pxe
